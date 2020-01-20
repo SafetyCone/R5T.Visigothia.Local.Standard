@@ -4,4 +4,8 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>1701;1702;1591;1573</NoWarn>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.Dacia\source\R5T.Dacia\R5T.Dacia.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Visigothia.Local.Default\source\R5T.Visigothia.Local.Default\R5T.Visigothia.Local.Default.csproj" />
+  </ItemGroup>
 </Project>
