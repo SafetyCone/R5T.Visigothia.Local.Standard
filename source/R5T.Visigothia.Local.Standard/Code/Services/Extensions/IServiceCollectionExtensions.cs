@@ -15,7 +15,7 @@ namespace R5T.Visigothia.Local.Standard
         /// </summary>
         public static IServiceCollection AddLocalUserProfileDirectoryProvider(this IServiceCollection services)
         {
-            services.AddLocalDefaultUserProfileDirectoryPathProvider();
+            services.AddEnvironmentBasedUserProfileDirectoryPathProvider();
 
             return services;
         }
